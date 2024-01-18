@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing-Tailwind-css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        .roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-[#FFFBF0] pt-11 pb-16">
+        <div class="max-w-7xl mx-auto w-11/12">
+            <div class="flex flex-row justify-between items-center">
+                <div class="w-60 h-5">
+                    <img src="./icons/logo.png" alt="">
+                </div>
+                <div>
+                    <ul class="hidden md:flex gap-14 cursor-pointer roboto">
+                        <li><a href="#"></a>Home</li>
+                        <li><a href="#"></a>product</li>
+                        <li><a href="#"></a>About Us</li>
+                        <li><a href="#"></a>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center justify-between  mt-3 gap-6">
+                <div class="text-center order-1  md:text-left">
+                    <h3 class="text-7xl"><span class="text-[#FABE4C] font-normal uppercase max-w-md">Be the Penguins</span> of Winter</h3>
+                    <p class="font-normal text-base mt-1">This ESL shopping reading passage and exercise will help you learn and use shopping vocabulary. <br> When using shopping vocabulary you will most likely have</p>
+                    <button class="px-7 py-4 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-md text-white text-base font-medium mt-2"><svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline-block">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                      </svg>
+                      Buy Now</button>
+                </div>
+                <div class="md:order-2">
+                    <img src="./images/model.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
